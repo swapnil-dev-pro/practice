@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.con{
+    width: 1300px;
+    margin:0 auto;
+    padding:40px;
+}
+/* All common css end */
+.main{
+    height: 500px;
+    background-image: url(../images/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.menu{
+    display:flex;
+    padding: 0 20px;
+    justify-content:space-between;
+}
+.main ul li a{
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.main ul li a:hover{
+    transform:rotate(60deg);
+    background-color:green;
+}
