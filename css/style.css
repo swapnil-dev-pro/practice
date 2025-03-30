@@ -8,32 +8,95 @@ ul{
 a{
     text-decoration: none;
     display: inline-block;
+        position: relative;
+        z-index: 10;
 }
-.con{
-    width: 1300px;
-    margin:0 auto;
-    padding:40px;
+.container{
+    padding:30px;
+    width: 1350px;
+    margin: 0 auto;
 }
-/* All common css end */
-.main{
-    height: 500px;
-    background-image: url(../images/Hero.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: cover;
+/* All Common Css End */
+.header{
+   background-image: url(../images/Rectangle\ 5132.png);
+    height: 900px;
+    position:relative;
 }
-.menu{
+.over{
+    position: absolute;
+    opacity:15%;
+}
+.menu ul{
+    display: inline-block;
+    padding:20px;
+}
+.menu ul li a{
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: 2s;
+}
+.menu ul li a:hover{
+    border-bottom: #fff solid 2px;
+}
+.all-head{
     display:flex;
-    padding: 0 20px;
+    align-items:center;
     justify-content:space-between;
 }
-.main ul li a{
-    color: white;
-    font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: 1s;
+.icon img{
+    padding:15px;
+    font-size:20px;
 }
-.main ul li a:hover{
-    transform:rotate(60deg);
-    background-color:green;
+.text h2{
+    color: #fff;
+    margin-top: 100px;
+}
+.text h1{
+    color: #fff;
+    font-size:50px;
+    margin-top:30px;
+    width:550px;
+}
+.text h1 span{
+    color:#FF494A;
+    margin-top:20px;
+}
+.text p{
+    color: #9F9F9F;
+    width:500px;
+    margin-top:50px;
+    line-height:30px;
+}
+.button{
+    margin-left:0px;
+    margin-top:70px;
+}
+.banright{
+    position: relative;
+}
+.img6{
+    position: absolute;
+    right: 0%;
+    bottom: 300px;
+}
+.img7{
+    position: absolute;
+    right:16.5%;
+    bottom:-440%;
+}
+.full{
+    background-color: black;
+    height:4000px;
+}
+.stpart{
+    margin-top: 100px;
+}
+.ndpart{
+    margin-top:100px;
+}
+.rdpart{
+    margin-top:100px;
+}
+.y{
+    margin-top:100px;
 }
