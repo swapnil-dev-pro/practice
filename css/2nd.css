@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1300px;
+    margin:0 auto;
+}
+.main{
+    height: 2000px;
+    background-color: black;
+}
+.img1{
+    margin-top: 100px;
+    align-items: center;
+}
