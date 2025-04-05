@@ -8,8 +8,8 @@ ul{
 a{
     text-decoration: none;
     display: inline-block;
-        position: relative;
-        z-index: 10;
+    position: relative;
+    z-index: 10;
 }
 .container{
     padding:30px;
@@ -36,7 +36,7 @@ a{
   transition: 2s;
 }
 .menu ul li a:hover{
-    border-bottom: #fff solid 2px;
+    border-bottom: #fff solid 4px;
 }
 .all-head{
     display:flex;
@@ -83,6 +83,10 @@ a{
     position: absolute;
     right:17%;
     bottom:-300%;
+  }
+  .img7 img{
+    border-radius:10px;
+    
   }
 .full{
     background-color: black;
